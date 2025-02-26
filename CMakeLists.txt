@@ -41,4 +41,10 @@ install(
   DESTINATION share/${PROJECT_NAME}/
 )
 
+# Install urdf
+install(
+  DIRECTORY urdf maps worlds
+  DESTINATION share/${PROJECT_NAME}/
+ )
+
 ament_package()
